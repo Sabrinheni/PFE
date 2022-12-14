@@ -1,0 +1,87 @@
+// Styles
+// CoreUI Icons Set
+@import "~@coreui/icons/css/coreui-icons.css";
+// Import Flag Icons Set
+@import "~flag-icon-css/css/flag-icon.min.css";
+// Import Font Awesome Icons Set
+@import "~font-awesome/css/font-awesome.min.css";
+// Import Simple Line Icons Set
+@import "~simple-line-icons/css/simple-line-icons.css";
+// Import Main styles for this application
+@import "./style.scss";
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans",
+    "Droid Sans", "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+
+.capitalize::first-letter {
+  text-transform: capitalize;
+}
+
+ul.error {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.loading-container {
+  top: 50%;
+  left: 50%;
+  width: 140px;
+  height: 140px;
+  transform: translate3d(-50%, -50%, 0);
+  position: absolute;
+}
+
+.item-image {
+  object-fit: contain;
+}
+
+.image-container {
+  display: flex;
+  place-content: center;
+  height: 13rem;
+}
+
+.image-container-form {
+  display: flex;
+  place-content: center;
+  height: 24.5rem;
+}
+
+.dynamic-input {
+  display: flex;
+  flex-wrap: nowrap;
+  margin: 10px 0;
+}
+
+.dynamic-input > div {
+  width: 100%;
+}
+
+.dynamic-input > button {
+  height: min-content;
+}
+
+.react-photo-gallery--gallery {
+  width: 100%;
+}
+
+.module {
+  background-color: aliceblue;
+  margin: 20px 0px;
+  border-radius: 5px;
+  border: groove;
+}
+
+.no-margin {
+  margin: 0 !important;
+}

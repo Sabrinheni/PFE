@@ -1,0 +1,9 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "es2020",
+    "baseUrl": "src/"
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules", "dist"]
+}

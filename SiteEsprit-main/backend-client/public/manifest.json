@@ -1,0 +1,15 @@
+{
+  "short_name": "Esprit",
+  "name": "Esprit, Se former autrement",
+  "icons": [
+    {
+      "src": "./assets/img/favicon.ico",
+      "sizes": "100x100",
+      "type": "image/x-icon"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}
